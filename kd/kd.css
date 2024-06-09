@@ -1,0 +1,71 @@
+/* Add your regular CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0074cc;
+    color: #fff;
+  }
+  
+  #projects {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .project-tile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  #contact {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #profile-link {
+    text-decoration: none;
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #profile-link:hover {
+    background-color: #005ba0;
+  }
+  
