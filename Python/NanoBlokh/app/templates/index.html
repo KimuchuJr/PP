@@ -1,9 +1,16 @@
 <!doctype html>
 <html>
 	<head>
+		{% if title %}
 		<title>{{ title }} - NanoBlokh</title>
+		{% else %}
+		<title>Welcome to NanoBlokh!</title>
+		{% endif %}
 	</head>
 	<body>
-		<h1>Hello, {{ user.username }}!</h1>
+		<h1>Hi, {{ user.username }}!</h1>
+		{% for post in posts %}
+		<div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+		{% endfor %}
 	</body>
 </html>
